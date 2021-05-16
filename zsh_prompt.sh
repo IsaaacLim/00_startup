@@ -2,7 +2,7 @@
 
 echo "#Command Prompt Styling
 TERM=xterm-256color
-PROMPT='%F{217}%isaac%f %F{146}(%m)%f %F{252}%1~%f ➜ '" > ~/.zshrc
+PROMPT='%F{217}%isaac%f %F{139}(%m)%f %F{152}%1~%f %F{252}➜%f '" > ~/.zshrc
 
 #Background: #181818
 #Foreground: #DFC9C5
