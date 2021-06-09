@@ -2,14 +2,21 @@
 
 echo "#Command Prompt Styling
 TERM=xterm-256color
-PROMPT='%F{217}%isaac%f %F{139}(%m)%f %F{152}%1~%f %F{252}➜%f '" > ~/.zshrc
+PROMPT='%S%F{217}isaac%f%s %B%F{139}(%m)%f%b %U%F{152}%1~%f%u %F{252}➜%f '" > ~/.zshrc
 
+# From
+#https://blog.devgenius.io/customize-the-macos-terminal-zsh-4cb387e4f447
+
+# Another good resource
+#https://scriptingosx.com/2019/07/moving-to-zsh-06-customizing-the-zsh-prompt/
+
+# TERMINAL COLOR
 #Background: #181818
 #Foreground: #DFC9C5
-#https://blog.devgenius.io/customize-the-macos-terminal-zsh-4cb387e4f447
+
 
 #TERM setting doesn't work for Gruvbox
 
-# Default setting
+# DEFAULT SETTING
 # TERM=Linux
 # PROMPT=%n@%m %1~ %# 
