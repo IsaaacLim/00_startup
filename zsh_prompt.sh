@@ -2,7 +2,7 @@
 
 echo "#Command Prompt Styling
 TERM=xterm-256color
-PROMPT='%U%F{217}isaac%f%F{139}(%m)%f%u %U%F{152}%1~%f%u %F{252}➜%f '" > ~/.zshrc
+PROMPT='%U%F{217}isaac%f%F{139}(%m)%f%u %U%F{152}%1~%f%u %F{252}➜%f %F{254}'" > ~/.zshrc
 
 echo "
 #Git Branch to Right of Command Prompt
@@ -22,7 +22,7 @@ zstyle ':vcs_info:*' enable git " >> ~/.zshrc
 
 # TERMINAL COLOR
 #Background: #181818
-#Foreground: #DFC9C5
+#Foreground: #DFC9C5 or #CCC5C4 (duller)
 
 
 #TERM setting doesn't work for Gruvbox
