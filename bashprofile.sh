@@ -21,11 +21,11 @@ function parse_git_branch() {
 PS1="\\033[01;38;5;210misaac\\033[0m"    # username
 PS1+="\\033[02;03;38;5;218m\](\h)\\033[0m"    # host
 PS1+=" "    # space
-PS1+="\\033[0;38;5;153m\]\W\\033[0m"    # current directoy
+PS1+="\\033[0;38;5;159m\]\W\\033[0m"    # current directoy
 PS1+=" "    # space
-PS1+="\\033[38;5;228m\$(parse_git_branch)\\033[0m"
+PS1+="\\033[38;5;229m\$(parse_git_branch)\\033[0m"
 PS1+=" "    # space
-PS1+="\\033[38;5;195m\]>> "    # end prompt
+PS1+="\\033[01;38;5;195m\]>>\\033[0m "    # end prompt
 
 # Teminal text setting
 export PS1;
