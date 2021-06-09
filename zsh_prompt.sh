@@ -2,7 +2,7 @@
 
 echo "#Command Prompt Styling
 TERM=xterm-256color
-PROMPT='%B%F{217}isaac%f%F{139}(%m)%f%b %U%F{152}%1~%f%u %F{252}➜%f '" > ~/.zshrc
+PROMPT='%U%F{217}isaac%f%F{139}(%m)%f%u %U%F{152}%1~%f%u %F{252}➜%f '" > ~/.zshrc
 
 # From
 #https://blog.devgenius.io/customize-the-macos-terminal-zsh-4cb387e4f447
