@@ -1,7 +1,9 @@
 #!/bin/sh
 
+# Settings are separated into different files for maintainability
 echo "#!/usr/bin/env bash" > ~/.bash_profile
-echo "source ~/.bash_prompt" >> ~/.bash_profile #For maintainability
+echo "source ~./bash_aliases" >> ~/.bash_profile #For aliases
+echo "source ~/.bash_prompt" >> ~/.bash_profile #For prompt setting
 
 echo '#!/usr/bin/env bash
 
