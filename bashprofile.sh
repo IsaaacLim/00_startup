@@ -1,7 +1,9 @@
 #!/bin/sh
 
+# Settings are separated into different files for maintainability
 echo "#!/usr/bin/env bash" > ~/.bash_profile
-echo "source ~/.bash_prompt" >> ~/.bash_profile #For maintainability
+echo "source ~./bash_aliases" >> ~/.bash_profile #For aliases
+echo "source ~/.bash_prompt" >> ~/.bash_profile #For prompt setting
 
 echo '#!/usr/bin/env bash
 
@@ -18,14 +20,14 @@ function parse_git_branch() {
 }
 
 # Teminal text
-PS1="\\033[01;38;5;210misaac\\033[0m"    # username
-PS1+="\\033[02;03;38;5;218m\](\h)\\033[0m"    # host
+PS1="\[\033[01;38;5;210m\]isaac\[\033[0m\]"    # username
+PS1+="\[\033[02;03;38;5;218m\](\h)\[\033[0m\]"    # host
 PS1+=" "    # space
-PS1+="\\033[0;38;5;159m\]\W\\033[0m"    # current directoy
+PS1+="\[\033[0;38;5;159m\]\W\[\033[0m\]"    # current directoy
 PS1+=" "    # space
-PS1+="\\033[38;5;229m\$(parse_git_branch)\\033[0m"
+PS1+="\[\033[38;5;229m\]\$(parse_git_branch)\[\033[0m\]"
 PS1+=" "    # space
-PS1+="\\033[01;38;5;195m\]>>\\033[0m "    # end prompt
+PS1+="\[\033[01;38;5;195m\]>>\[\033[0m\] "    # end prompt
 
 # Teminal text setting
 export PS1;
