@@ -3,3 +3,6 @@ alias gccw="gcc -Wall -Wextra -Werror *.c && ./a.out"
 alias gcch="gcc -Wall -Wextra -Werror *.c *.h && ./a.out"
 alias normch="norminette -R CheckForbiddenSourceHeader"
 alias normi="~/.local/bin/norminette"
+
+alias gccA="gcc main.c libftprintf.a && ./a.out | cat -e"
+alias gccO="gcc -Wall -Wextra -Werror output.c && ./a.out | cat -e"
