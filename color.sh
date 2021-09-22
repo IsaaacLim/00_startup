@@ -15,4 +15,8 @@ echo "set ruler" >> ~/.vimrc
 echo "set t_Co=256" >> ~/.vimrc
 echo "let g:rehash256 = 1" >> ~/.vimrc
 
-echo "colors molokai" >> ~/.vimrc
+#TERM setting from .zshrc messes up Gruvbox
+#But setting colors to jellybeans first before gruvbox works
+#echo "colors molokai" >> ~/.vimrc
+echo "colors jellybeans" >> ~/.vimrc
+echo "colors gruvbox" >> ~/.vimrc
