@@ -2,7 +2,7 @@
 
 echo "#Command Prompt Styling
 TERM=xterm-256color
-PROMPT='%B%F{217}isaac%f%b%F{139}(%m)%f% %F{152}%1~%f %F{252}%(?:%{➜%G%}:._.)%f '" > ~/.zshrc
+PROMPT='%B%F{217}isaac%f%b%F{139}(%m)%f %F{152}%1~%f %F{252}%(?:%{➜%G%}:⚝)%f '" > ~/.zshrc
 
 echo "
 #Git Branch to Right of Command Prompt
