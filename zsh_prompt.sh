@@ -2,7 +2,7 @@
 
 echo "#Command Prompt Styling
 TERM=xterm-256color
-PROMPT='%U%F{217}isaac%f%F{139}(%m)%f%u %U%F{152}%1~%f%u %F{252}➜%f '" > ~/.zshrc
+PROMPT='%B%F{217}isaac%f%b%F{139}(%m)%f% %F{152}%1~%f %F{252}%(?:%{➜%G%}:._.)%f '" > ~/.zshrc
 
 echo "
 #Git Branch to Right of Command Prompt
@@ -16,6 +16,7 @@ zstyle ':vcs_info:*' enable git " >> ~/.zshrc
 
 # From
 #https://blog.devgenius.io/customize-the-macos-terminal-zsh-4cb387e4f447
+## go through 'zsh prompt documentation' to understand the flags meaning
 
 # Another good resource for additional formatting
 #https://scriptingosx.com/2019/07/moving-to-zsh-06-customizing-the-zsh-prompt/
