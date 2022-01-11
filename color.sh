@@ -1,8 +1,8 @@
 #!/bin/sh
 mkdir -p ~/.vim/colors
-cp -u -p ./colorscheme/zenburn.vim ~/.vim/colors
-cp -u -p ./colorscheme/gruvbox.vim ~/.vim/colors
-cp -u -p ./colorscheme/molokai.vim ~/.vim/colors
+cp -u -p ./colorschemes/zenburn.vim ~/.vim/colors
+cp -u -p ./colorschemes/gruvbox.vim ~/.vim/colors
+cp -u -p ./colorschemes/molokai.vim ~/.vim/colors
 
 #export TERM=xterm-256color
 # t_Co=256 #zenburn
