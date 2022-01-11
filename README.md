@@ -8,12 +8,12 @@
 
 ### Scripts Description
 
-| No. | File               | Purpose                                 |
-| :-: | ------------------ | --------------------------------------- |
-| 1.  | `bashprofile.sh`   | Setup **BASH** command prompt & aliases |
-| 2.  | `headerinstall.sh` | Install 42Header hotkey                 |
-| 3.  | `vimrc.sh`         | `vim` settings                          |
-| 4.  | `zshprompt.sh`     | Setup **ZSH** command prompt            |
+| No. | File               | Purpose                                   |
+| :-: | ------------------ | ----------------------------------------- |
+| 1.  | `bashprofile.sh`   | Setup **BASH** command prompt & aliases   |
+| 2.  | `headerinstall.sh` | Install 42Header hotkey _(for WSL Linux)_ |
+| 3.  | `vimrc.sh`         | `vim` settings                            |
+| 4.  | `zshprompt.sh`     | Setup **ZSH** command prompt              |
 
 ---
 
