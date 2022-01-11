@@ -1,5 +1,6 @@
 #!/bin/sh
 
+# Command prompt setting for ZSH (42 iMacs)
 echo "#Command Prompt Styling
 TERM=xterm-256color
 PROMPT='%B%F{217}isaac%f%b%F{139}(%m)%f %F{152}%1~%f %F{252}%(?:%{➜%G%}:%{✘%G%})%f '" > ~/.zshrc
